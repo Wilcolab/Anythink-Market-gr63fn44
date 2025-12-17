@@ -1,5 +1,5 @@
 'use strict';
-
+//welcome to wilco software
 exports.calculate = function(req, res) {
   req.app.use(function(err, _req, res, next) {
     if (res.headersSent) {
